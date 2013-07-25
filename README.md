@@ -1,4 +1,4 @@
-#Regularly update etc/hosts file with Halo server names
+#autogen_hosts - Regularly update etc/hosts file with Halo server names
 
 Version: *1.0*
 <br />
