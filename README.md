@@ -44,3 +44,6 @@ it is easily fixed if you are using something like RightScale to manage the serv
 
 hostsupdate.cron will now run at the frequency you have set, calling hosts.rb to update the set of servers, and then updating every server's hosts file with that info.
 
+<!---
+#CPTAGS:community-unsupported integration automation
+-->
