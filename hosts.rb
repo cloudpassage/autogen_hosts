@@ -20,7 +20,7 @@ client = OAuth2::Client.new(clientid, clientsecret,
 
 token = client.client_credentials.get_token.token
 
-result = RestClient.get "https://#{host}/api/1/servers", {
+result = RestClient.get "https://#{host}/v1/servers", {
         'Authorization' => "Bearer #{token}"
 }
 

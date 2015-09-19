@@ -19,7 +19,7 @@ response = RestClient.post "https://#{host}/oauth/access_token", {
 }
 token = JSON.parse(response)["access_token"]
 
-result = RestClient.get "https://#{host}/api/1/servers", {
+result = RestClient.get "https://#{host}/v1/servers", {
 	'Authorization' => "Bearer #{token}",
         'Content-type' => "application/json"
 }
