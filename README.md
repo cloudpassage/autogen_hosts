@@ -46,4 +46,5 @@ hostsupdate.cron will now run at the frequency you have set, calling hosts.rb to
 
 <!---
 #CPTAGS:community-unsupported integration automation
+#TBICON:images/ruby_icon.png
 -->
